@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color:#3399ff;
+}
+
+/* Encabezado */
+header {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    color: #0056b3;
+    margin: 0;
+}
+
+header .logo p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Navegación */
+nav {
+    background-color: #0056b3;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+    flex: 1;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-right: 1px solid #3399ff;
+}
+
+nav ul li a:last-child {
+    border-right: none;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: #3399ff;
+}
+
+/* Título de sección */
+.section-title {
+    color: #fff;
+}
+
+.section-title h2 {
+    margin: 25px;
+    text-align:center;
+}
+
+.section-title p {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Sección de clientes */
+.clients-section {
+    margin: 100px;
+}
+
+.handshake-image {
+    width: 1000%;
+    max-width: 1000px;
+}
+
+/* Cuadrícula de logos de clientes */
+.clients-grid {
+    width: 1000%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}

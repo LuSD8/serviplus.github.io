@@ -1,0 +1,41 @@
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden; /* Oculta las partes fuera del contenedor */
+}
+
+/* Individual slides */
+.slide {
+    display:block;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+/* Slide images */
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Animation for slide transition */
+@keyframes slideLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideOutLeft {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}

@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #FFFFFF;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 2px solid #CCC;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    color: #0056b3;
+    margin: 0;
+}
+
+header .logo p {
+    font-size: 14px;
+    color: #666;
+}
+
+nav {
+    background-color: #0056b3;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+    flex: 1;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-right: 1px solid #3399ff;
+}
+
+nav ul li a:last-child {
+    border-right: none;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: #3399ff;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #5DADE2;
+}
+
+.contact-form {
+    width: 50%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    color: #0B70C9;
+    margin-bottom: 10px;
+}
+
+.contact-form p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #0B70C9;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #3366CC;
+}
+
+.contact-info {
+    width: 30%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-info h3,
+.contact-info h4 {
+    color: #0B70C9;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    color: #666;
+    font-size: 14px;
+    margin-top: 20px;
+}
